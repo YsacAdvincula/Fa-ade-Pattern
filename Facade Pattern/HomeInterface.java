@@ -8,13 +8,13 @@ public class HomeInterface {
         this.tv = new TV();
         this.ac = new AirConditioning();
     }
-
+//Turn on Services
     public void turnOnAll() {
         light.turnOn();
         tv.turnOn();
         ac.turnOn();
     }
-
+//Turn off Services
     public void turnOffAll() {
         light.turnOff();
         tv.turnOff();
